@@ -38,6 +38,8 @@ jobs:
         with:
           perl-version: ${{ matrix.perl }}
           install-modules-with: cpanm
+          install-modules:
+            Devel::Trace
       
       - name: Run Tests
         run: perl run_tests.pl
