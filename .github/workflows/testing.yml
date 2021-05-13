@@ -35,5 +35,5 @@ jobs:
       
       - name: Set Up Perl ${{ matrix.perl }}
         uses: shogo82148/actions-setup-perl@v1
-          with:
-            perl-version: ${{ matrix.perl }}
+        with:
+          perl-version: ${{ matrix.perl }}
