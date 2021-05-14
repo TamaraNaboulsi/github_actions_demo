@@ -5,13 +5,7 @@ use Test::More tests => 5;
 
 print "Running tests\n";
 
-
-# # or
-# use Test::More skip_all => $reason;
-# # or
-# use Test::More;   # see done_testing()
- 
-require_ok('Devel::Trace');
+# require_ok('Devel::Trace');
 
 ok(1 + 2 == 3, '1 + 2 == 3');
 ok(2 * 4 == 8, '2 * 4 == 8');
