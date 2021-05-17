@@ -35,4 +35,4 @@ jobs:
           perl-version: '5.30'
       
       - name: Display perl version
-        run: perl -V
+        run: perl --version
