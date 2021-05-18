@@ -40,3 +40,6 @@ jobs:
       
       - name: Display perl version
         run: perl --version
+      
+      - name: Run Test
+        run: perl run_tests.pl
